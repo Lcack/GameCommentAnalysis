@@ -1,10 +1,8 @@
 # GameCommentAnalysis
 
-面向游戏数值策划的 Steam 评论分析项目，结合 **SQL、DeepSeek API 与人工评估**，从玩家评论中提取难度、战斗资源、构筑、成长和资源经济反馈，生成可追溯的分析结果。
+针对动作游戏的一个 Steam 评论分析项目，结合 **SQL、DeepSeek API 与人工评估**，从玩家评论中提取难度、战斗资源、构筑、成长和资源经济反馈，生成可追溯的分析结果。
 
-默认研究对象为《影之刃零》《黑神话：悟空》《鬼武者 Way of the Sword》。项目关注玩家对具体机制的体验描述，支持优先抽取高游玩时长评论。
-
-> 当前提供采集、抽样、模型调用、SQL 分析与评估流程。原始评论、数据库、密钥、机器生成结果和个人运行记录不随仓库发布。模型分类质量需通过人工标注评估，项目不预设任何游戏的分析结论。
+目前研究对象为《影之刃零》《黑神话：悟空》《鬼武者 Way of the Sword》。主要关注玩家对具体机制的体验描述，优先抽取高游玩时长评论。
 
 ## 功能
 
@@ -248,9 +246,4 @@ python -m unittest discover -s tests -v
 - 发行阶段、语言和评论选择偏差会影响跨游戏比较；评论不直接证明机制因果或具体参数调整幅度。
 - 原文证据存在性检查不能代替语义准确率评估。
 
-## 官方资料
 
-- [Valve：Steam 用户评论接口](https://partner.steamgames.com/doc/webapi/IUserReviewsService)
-- [DeepSeek：首次调用 API](https://api-docs.deepseek.com/zh-cn/)
-- [DeepSeek：JSON Output](https://api-docs.deepseek.com/zh-cn/guides/json_mode/)
-- [DeepSeek：Token 用量计算](https://api-docs.deepseek.com/zh-cn/quick_start/token_usage/)
