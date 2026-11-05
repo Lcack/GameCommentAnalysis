@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+reports/
+*.egg-info/
+docs/首次运行记录.md
+docs/本地运行指南.md

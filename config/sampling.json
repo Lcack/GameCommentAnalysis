@@ -1,0 +1,9 @@
+{
+  "mode": "longplay",
+  "per_game": 5000,
+  "top_percent": 100,
+  "min_hours": 0,
+  "min_chars": 0,
+  "weights": [50, 25, 15, 7, 3],
+  "seed": 42
+}
